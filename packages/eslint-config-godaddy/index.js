@@ -35,7 +35,7 @@ module.exports = {
     'max-nested-callbacks': [2, 4],
     'max-params': [2, 4],
     'max-statements': [1, 15],
-    'max-len': [1, 130, 2],
+    'max-len': [1, 80, 2],
     'mocha/no-exclusive-tests': 2,
     'new-parens': 2,
     'no-alert': 2,
@@ -122,8 +122,8 @@ module.exports = {
     'no-with': 2,
     'new-cap': 2,
     //
-    // Whitespace rules follow. All rules are auto-fix unless
-    // otherwise specified.
+    // Whitespace rules follow. All rules are auto-fix unless otherwise
+    // specified.
     //
     'array-bracket-spacing': 2,
     'brace-style': [2, '1tbs', { allowSingleLine: true }],
@@ -143,11 +143,14 @@ module.exports = {
     'quotes': [2, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
     'quote-props': [2, 'consistent-as-needed'],
     'space-before-blocks': 2,
-    'space-before-function-paren': [2, {
-      anonymous: 'always',
-      named: 'never',
-      asyncArrow: 'ignore'
-    }],
+    'space-before-function-paren': [
+      2,
+      {
+        anonymous: 'always',
+        named: 'never',
+        asyncArrow: 'ignore'
+      }
+    ],
     'space-unary-ops': [2, { words: true, nonwords: false }],
     'space-infix-ops': 2,
     'spaced-comment': 2,
